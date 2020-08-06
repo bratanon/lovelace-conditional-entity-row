@@ -40,6 +40,8 @@ When the condition evaluates to "true", the entity will be shown.
 
 ### Example usage
 
+![Example usage](https://user-images.githubusercontent.com/812265/89547277-d9478300-d805-11ea-9bbe-4588b4ef26ac.gif)
+
 ```yaml
 - type: entities
   show_header_toggle: false
