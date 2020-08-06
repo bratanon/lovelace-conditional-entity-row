@@ -1,0 +1,19 @@
+views:
+  - title: Dev
+    cards:
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - input_boolean.example_boolean
+
+      - type: entities
+        show_header_toggle: false
+        entities:
+        - entity: light.bed_light
+          name: 'Bed Light'
+          type: custom:conditional-entity-row
+          condition:
+            entity: input_boolean.example_boolean
+            state: 'on'
+        - entity: light.ceiling_lights
+        - entity: light.kitchen_lights

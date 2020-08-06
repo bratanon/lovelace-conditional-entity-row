@@ -1,0 +1,15 @@
+default_config:
+
+demo:
+
+lovelace:
+  mode: storage
+  dashboards:
+    lovelace-yaml:
+      mode: yaml
+      title: Test
+      filename: lovelace.yaml
+
+input_boolean:
+  example_boolean:
+    name: Condition
