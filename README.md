@@ -1,17 +1,18 @@
-conditional-entity-row
-=================
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+# This repo is deprecated.
+
+This feature is already in lovelace core. 
+You can use https://www.home-assistant.io/lovelace/entities/#conditional and get the same results.
+
+# conditional-entity-row
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 Show or hide an entity row based on a condition.
 
 ## Install
 
 ### HACS installation
-While this plugin can be installed by HACS, it is not included in the default repository of HACS.
-
-1. Add this repository as a custom repository inside HACS settings. Make sure you select `Lovelace` as Category.
-
-2. Install the plugin from the Overview page.
+This card is available in HACS (Home Assistant Community Store)
 
 ### Manual install
 1. Download and copy `conditional-entity-row.js` from the [latest release](https://github.com/bratanon/lovelace-conditional-entity-row/releases/latest) into your `config/www` directory.
